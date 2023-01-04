@@ -6,15 +6,20 @@ import com.atguigu.srb.core.pojo.entity.Dict;
 import com.atguigu.srb.core.mapper.DictMapper;
 import com.atguigu.srb.core.pojo.entity.dto.ExcelDictDTO;
 import com.atguigu.srb.core.service.DictService;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.springframework.beans.BeanUtils;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * <p>
@@ -27,6 +32,10 @@ import java.util.List;
 @Service
 @Slf4j
 public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements DictService {
+
+
+    @Resource
+    private RedisTemplate redisTemplate;
 
     @Transactional(rollbackFor = Exception.class)
     @Override
@@ -46,5 +55,47 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
 
         });
         return excelDictDTOList;
+    }
+
+    @Override
+    public List<Dict> listByParentId(Long parentId) {
+        try {
+            List<Dict>  dicts= (List<Dict>) redisTemplate.opsForValue().get("srb:core:dictList:" + parentId);
+            if(dicts!=null){
+                log.info("从redis中直接获取数据");
+                return dicts;
+            }
+        } catch (Exception e) {
+            log.error("redis服务器异常:"+ ExceptionUtils.getStackTrace(e));
+        }
+        QueryWrapper<Dict> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("pa" +
+                "rent_id",parentId);
+        List<Dict> dictList = baseMapper.selectList(queryWrapper);
+        dictList.forEach(dict -> {
+            boolean hasChildren=this.hasChildren(dict.getId());
+            dict.setHasChildren(hasChildren);
+
+        });
+
+        try {
+            redisTemplate.opsForValue().set("srb:core:dictList:"+parentId,dictList,5, TimeUnit.MINUTES);
+            log.info("数据存入redis");
+        } catch (Exception e) {
+            log.error("数据存入redis");
+        }
+        return dictList;
+    }
+
+    private boolean hasChildren(Long id){
+        QueryWrapper<Dict> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("parent_id",id);
+        Integer count = baseMapper.selectCount(queryWrapper);
+        if(count.intValue()>0){
+            return true;
+        }else{
+            return false;
+        }
+
     }
 }
