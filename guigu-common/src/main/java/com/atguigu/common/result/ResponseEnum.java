@@ -41,9 +41,10 @@ public enum ResponseEnum {
     NOT_SUFFICIENT_FUNDS_ERROR(307, "余额不足，请充值"),
 
     PAY_UNIFIEDORDER_ERROR(401, "统一下单错误"),
-
+    ALIYUN_RESPONSE_FAIL(-501,"阿里云响应失败"),
     ALIYUN_SMS_LIMIT_CONTROL_ERROR(-502, "短信发送过于频繁"),//业务限流
     ALIYUN_SMS_ERROR(-503, "短信发送失败"),//其他失败
+
 
     WEIXIN_CALLBACK_PARAM_ERROR(-601, "回调参数不正确"),
     WEIXIN_FETCH_ACCESSTOKEN_ERROR(-602, "获取access_token失败"),

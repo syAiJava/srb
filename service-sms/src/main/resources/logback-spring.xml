@@ -3,7 +3,7 @@
 <contextName>atguiguSrb</contextName>
 
     <!-- 日志的输出目录 -->
-    <property name="log.path" value="C:/Users/26370/Desktop/resource/tools/log/core" />
+    <property name="log.path" value="C:/Users/26370/Desktop/resource/tools/log/sms" />
 
     <!--控制台日志格式：彩色日志-->
     <!-- magenta:洋红 -->
