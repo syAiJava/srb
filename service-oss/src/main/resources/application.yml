@@ -1,0 +1,15 @@
+server:
+  port: 8130 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-oss # 服务名
+
+aliyun:
+  oss:
+    endpoint: oss-cn-shanghai.aliyuncs.com
+    keyId: LTAI5t7Gn6D7gx8W5cGeRMop
+    keySecret: Oug0TQBqTFAu63l8cSCTckTHUPaNa2
+    bucketName: srb-file-sy
