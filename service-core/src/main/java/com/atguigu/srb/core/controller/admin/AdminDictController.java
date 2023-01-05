@@ -58,11 +58,11 @@ public class AdminDictController {
     /**
      * 文件下载（失败了会返回一个有部分数据的Excel）
      * <p>
-     * 1. 创建excel对应的实体对象 参照{@link DownloadData}
+//     * 1. 创建excel对应的实体对象 参照{@link }
      * <p>
      * 2. 设置返回的 参数
      * <p>
-     * 3. 直接写，这里注意，finish的时候会自动关闭OutputStream,当然你外面再关闭流问题不大
+     * 3. 直接写，这里注意，finish的时候会自动关闭OutputStrea    m,当然你外面再关闭流问题不大
      */
     @GetMapping("/export")
     @ApiOperation("Excel数据的导出")

@@ -22,7 +22,7 @@ public class Swagger2Config {
                 .apiInfo(apiInfo())
                 .select()
                 //只显示admin路径下的页面
-                .paths(Predicates.and(PathSelectors.regex("/api/.*")))
+//                .paths(Predicates.and(PathSelectors.regex("/api/.*")))
                 .build();
     }
         private ApiInfo apiInfo(){
