@@ -49,7 +49,7 @@ public class ApiSmsController {
         Map<String,Object> param = new HashMap<>();
         param.put("code", code);
         //发送短信
-        smsService.send(mobile, SmsProperties.TEMPLATE_CODE, param);
+//        smsService.send(mobile, SmsProperties.TEMPLATE_CODE, param);
 
         //将验证码存入redis
         redisTemplate.opsForValue().set("srb:sms:code:" + mobile, code, 5, TimeUnit.MINUTES);

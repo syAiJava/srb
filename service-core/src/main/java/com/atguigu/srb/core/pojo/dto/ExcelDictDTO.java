@@ -1,4 +1,4 @@
-package com.atguigu.srb.core.pojo.entity.dto;
+package com.atguigu.srb.core.pojo.dto;
 
 import com.alibaba.excel.annotation.ExcelProperty;
 import lombok.Data;

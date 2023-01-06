@@ -3,8 +3,7 @@ package com.atguigu.srb.core.listener;
 import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.event.AnalysisEventListener;
 import com.atguigu.srb.core.mapper.DictMapper;
-import com.atguigu.srb.core.pojo.entity.dto.ExcelDictDTO;
-import com.atguigu.srb.core.service.DictService;
+import com.atguigu.srb.core.pojo.dto.ExcelDictDTO;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 

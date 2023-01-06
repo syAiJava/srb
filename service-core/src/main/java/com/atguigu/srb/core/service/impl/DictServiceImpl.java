@@ -4,7 +4,7 @@ import com.alibaba.excel.EasyExcel;
 import com.atguigu.srb.core.listener.ExcelDictDTOListener;
 import com.atguigu.srb.core.pojo.entity.Dict;
 import com.atguigu.srb.core.mapper.DictMapper;
-import com.atguigu.srb.core.pojo.entity.dto.ExcelDictDTO;
+import com.atguigu.srb.core.pojo.dto.ExcelDictDTO;
 import com.atguigu.srb.core.service.DictService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

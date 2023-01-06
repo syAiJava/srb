@@ -1,7 +1,7 @@
 package com.atguigu.srb.core.mapper;
 
 import com.atguigu.srb.core.pojo.entity.Dict;
-import com.atguigu.srb.core.pojo.entity.dto.ExcelDictDTO;
+import com.atguigu.srb.core.pojo.dto.ExcelDictDTO;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 import java.util.List;
