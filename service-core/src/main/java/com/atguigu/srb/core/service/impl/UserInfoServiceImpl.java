@@ -10,11 +10,15 @@ import com.atguigu.srb.core.mapper.UserLoginRecordMapper;
 import com.atguigu.srb.core.pojo.entity.UserAccount;
 import com.atguigu.srb.core.pojo.entity.UserInfo;
 import com.atguigu.srb.core.pojo.entity.UserLoginRecord;
+import com.atguigu.srb.core.pojo.query.UserInfoQuery;
 import com.atguigu.srb.core.pojo.vo.LoginVO;
 import com.atguigu.srb.core.pojo.vo.RegisterVO;
 import com.atguigu.srb.core.pojo.vo.UserInfoVO;
 import com.atguigu.srb.core.service.UserInfoService;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -101,5 +105,25 @@ import javax.annotation.Resource;
         userInfoVO.setUserType(userType);
 
         return userInfoVO;
+    }
+
+    @Override
+    public IPage<UserInfo> listPage(Page<UserInfo> pageParam, UserInfoQuery userInfoQuery) {
+
+        String mobile = userInfoQuery.getMobile();
+        Integer status = userInfoQuery.getStatus();
+        Integer userType = userInfoQuery.getUserType();
+
+        QueryWrapper<UserInfo> userInfoQueryWrapper = new QueryWrapper<>();
+
+        if(userInfoQuery == null){
+            return baseMapper.selectPage(pageParam, null);
+        }
+
+        userInfoQueryWrapper
+                .eq(StringUtils.isNotBlank(mobile), "mobile", mobile)
+                .eq(status != null, "status", userInfoQuery.getStatus())
+                .eq(userType != null, "user_type", userType);
+        return baseMapper.selectPage(pageParam, userInfoQueryWrapper);
     }
 }
