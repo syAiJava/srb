@@ -50,7 +50,7 @@
 
     <!-- 开发环境和测试环境 -->
     <springProfile name="dev,test">
-        <logger name="com.atguigu" level="INFO">
+        <logger name="com.atguigu" level="DEBUG">
             <appender-ref ref="CONSOLE" />
         </logger>
     </springProfile>

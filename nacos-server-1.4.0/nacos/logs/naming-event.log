@@ -1,0 +1,278 @@
+2023-01-10 09:55:38,020 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 09:55:38,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 09:57:32,696 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 09:57:32,696 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 09:57:55,666 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 09:57:55,666 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 10:00:40,262 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:00:40,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 10:01:11,886 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:01:11,886 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 10:02:36,873 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:02:36,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 10:02:59,559 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:02:59,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 10:18:28,310 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:18:28,310 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.56.1:8130_true,
+
+2023-01-10 10:19:04,542 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:19:04,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 10:38:25,220 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:38:25,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 10:38:54,830 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:38:54,830 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 10:53:27,931 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:53:27,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 10:53:31,477 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:53:31,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 10:53:59,622 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:53:59,622 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 10:54:03,276 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:54:03,276 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 10:59:49,355 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 10:59:49,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 11:00:12,470 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 11:00:12,470 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 14:06:54,759 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8120@DEFAULT@DEFAULT_GROUP@@service-sms, region: unknown, msg: client timeout after 15000, last beat: 1673322042884
+
+2023-01-10 14:06:54,759 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8130@DEFAULT@DEFAULT_GROUP@@service-oss, region: unknown, msg: client timeout after 15000, last beat: 1673322043702
+
+2023-01-10 14:06:54,765 INFO {POS} {IP-DISABLED} valid: 192.168.56.1:8110@DEFAULT@DEFAULT_GROUP@@service-core, region: unknown, msg: client timeout after 15000, last beat: 1673322040836
+
+2023-01-10 14:06:55,725 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-01-10 14:06:55,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 14:06:55,725 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-01-10 14:06:55,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 14:06:55,725 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-01-10 14:06:55,725 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2023-01-10 14:06:56,333 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:06:56,333 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 14:06:58,370 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:06:58,370 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 14:06:59,192 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:06:59,192 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.56.1:8130_true,
+
+2023-01-10 14:57:58,143 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:57:58,143 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 14:58:00,096 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:58:00,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 14:58:29,770 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:58:29,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 14:58:36,836 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:58:36,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 14:58:38,168 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:58:38,169 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 14:59:05,170 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:59:05,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 14:59:17,717 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 14:59:17,717 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 15:00:10,028 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:00:10,028 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 15:08:53,229 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:08:53,229 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 15:11:06,244 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:11:06,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 15:11:35,417 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:11:35,417 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 15:14:50,153 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:14:50,154 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 15:15:16,311 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:15:16,311 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 15:16:14,853 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:16:14,853 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 15:16:41,874 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:16:41,874 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 15:17:16,308 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:17:16,308 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 15:17:38,959 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 15:17:38,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 17:02:58,726 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:02:58,727 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 17:03:01,120 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:03:01,120 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 17:03:23,227 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:03:23,227 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 17:03:24,857 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:03:24,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 17:36:43,326 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:36:43,326 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 17:36:43,934 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:36:43,934 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 17:36:44,121 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:36:44,122 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 17:36:44,252 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:36:44,252 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2023-01-10 17:37:16,719 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:16,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 17:37:18,290 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:18,290 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 17:37:23,283 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:23,283 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.56.1:8130_true,
+
+2023-01-10 17:37:25,692 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:25,692 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 17:37:57,936 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:57,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 17:37:58,419 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:58,419 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 17:37:58,489 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:58,489 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2023-01-10 17:37:58,521 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:37:58,521 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 17:38:16,469 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:38:16,469 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 17:38:20,217 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:38:20,217 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 17:38:24,069 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:38:24,069 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.56.1:8130_true,
+
+2023-01-10 17:38:29,935 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:38:29,935 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
+2023-01-10 17:43:15,467 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:15,467 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-01-10 17:43:15,938 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:15,938 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2023-01-10 17:43:15,979 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:15,979 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 
+
+2023-01-10 17:43:16,009 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:16,009 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 
+
+2023-01-10 17:43:33,002 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:33,002 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.56.1:80_true,
+
+2023-01-10 17:43:35,295 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:35,295 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.56.1:8110_true,
+
+2023-01-10 17:43:35,905 INFO DEFAULT_GROUP@@service-oss {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8130:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:35,905 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-oss, ips: 192.168.56.1:8130_true,
+
+2023-01-10 17:43:38,213 INFO DEFAULT_GROUP@@service-sms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.56.1:8120:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-01-10 17:43:38,213 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-sms, ips: 192.168.56.1:8120_true,
+
